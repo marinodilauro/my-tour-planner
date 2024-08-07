@@ -1,27 +1,25 @@
 <script>
 import { RouterLink, RouterView } from "vue-router";
-import AppHeader from './components/AppHeader.vue';
-import AppFooter from './components/AppFooter.vue';
-
+import Header from './components/Header.vue';
+import Footer from './components/Footer.vue';
 
 export default {
   name: 'App',
   components: {
-    AppHeader,
-    AppFooter
+    Header,
+    Footer
   },
   data() {
     return {
     }
   }
 }
-
 </script>
 
 <template>
-  <AppHeader></AppHeader>
+  <Header></Header>
   <RouterView title="My Tour Planner"></RouterView>
-  <AppFooter></AppFooter>
+  <Footer></Footer>
 </template>
 
 <style></style>

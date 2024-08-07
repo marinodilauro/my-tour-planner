@@ -5,12 +5,28 @@
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
-  color: $color-light;
-  background-color: $color-darker;
+  color: $color-darker;
+  background-color: $color-light;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.bg_color_light {
+  background-color: $color-light;
+}
+
+.bg_color_secondary {
+  background-color: $color-secondary;
+}
+
+.bg_color_dark {
+  background-color: $color-dark;
+}
+
+.bg_color_darker {
+  background-color: $color-darker;
 }
 
 * {

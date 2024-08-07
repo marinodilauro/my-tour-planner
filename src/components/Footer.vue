@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: "AppFooter",
+  name: "Footer",
   data() {
     return {};
   }
@@ -10,9 +10,9 @@ export default {
 
 <template>
 
-  <footer class="d-flex flex-wrap justify-content-between align-items-center p-3 my-4 border-top bg-primary">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center p-3 my-4 border-top bg_color_secondary">
     <div class="col-md-4 d-flex align-items-center">
-      <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+      <span class="mb-0 pt-sans-regular text-body-secondary">© 2024 Marino di Lauro</span>
     </div>
 
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
