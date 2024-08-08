@@ -13,36 +13,36 @@ export const state = reactive({
 
   // State data
   travels: [
-    {
-      name: "Roma Tour",
-      start_date: formatDate(new Date()),
-      end_date: formatDate(new Date()),
-      destination: "Roma"
-    },
-    {
-      name: "Venezia Getaway",
-      start_date: formatDate(new Date()),
-      end_date: formatDate(new Date()),
-      destination: "Venezia"
-    },
-    {
-      name: "Milano Shopping",
-      start_date: formatDate(new Date()),
-      end_date: formatDate(new Date()),
-      destination: "Milano"
-    },
-    {
-      name: "Firenze Art Tour",
-      start_date: formatDate(new Date()),
-      end_date: formatDate(new Date()),
-      destination: "Firenze"
-    },
-    {
-      name: "Napoli Food Adventure",
-      start_date: formatDate(new Date()),
-      end_date: formatDate(new Date()),
-      destination: "Napoli"
-    }
+    /*     {
+          name: "Roma Tour",
+          start_date: formatDate(new Date()),
+          end_date: formatDate(new Date()),
+          destination: "Roma"
+        },
+        {
+          name: "Venezia Getaway",
+          start_date: formatDate(new Date()),
+          end_date: formatDate(new Date()),
+          destination: "Venezia"
+        },
+        {
+          name: "Milano Shopping",
+          start_date: formatDate(new Date()),
+          end_date: formatDate(new Date()),
+          destination: "Milano"
+        },
+        {
+          name: "Firenze Art Tour",
+          start_date: formatDate(new Date()),
+          end_date: formatDate(new Date()),
+          destination: "Firenze"
+        },
+        {
+          name: "Napoli Food Adventure",
+          start_date: formatDate(new Date()),
+          end_date: formatDate(new Date()),
+          destination: "Napoli"
+        } */
   ]
 
 })

@@ -22,7 +22,7 @@ export default {
 
     <span class="title nunito-bold">{{ name }}</span>
 
-    <div class="body d-flex flex-column gap-2">
+    <div class="body montserrat-regular d-flex flex-column gap-2">
       <span class="start_date">Data partenza: {{ start_date }}</span>
       <span class="end_date">Data arrivo: {{ end_date }}</span>
       <span class="destination">Destinazione: {{ destination }}</span>
@@ -38,6 +38,7 @@ export default {
   height: 200px;
   border-radius: 30px;
   background-color: #fbfaff;
+  color: #293241;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);

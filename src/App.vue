@@ -22,4 +22,8 @@ export default {
   <Footer></Footer>
 </template>
 
-<style></style>
+<style>
+body {
+  background-color: #FBFAFF;
+}
+</style>

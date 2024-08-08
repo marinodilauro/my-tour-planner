@@ -13,7 +13,7 @@ export default {
 
   <header>
     <h1 class="nunito-extrabold">My Tour Planner</h1>
-    <img src="../assets/img/travel.svg" alt="">
+    <img src="../assets/img/homepage1.svg" alt="">
   </header>
 
 </template>
@@ -26,16 +26,14 @@ header {
     height: 12rem;
     width: 100%;
     object-fit: cover;
-    object-position: top;
+    object-position: center;
   }
 
   h1 {
+    padding-top: 1rem;
     font-size: 2rem;
     color: #98C1D9;
-    position: relative;
-    top: 1rem;
     text-align: center;
-    transform: translate(0%, 50%);
   }
 }
 </style>
